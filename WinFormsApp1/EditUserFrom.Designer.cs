@@ -127,10 +127,10 @@
             uiTextBox4.MinimumSize = new Size(1, 16);
             uiTextBox4.Name = "uiTextBox4";
             uiTextBox4.Padding = new Padding(5);
+            uiTextBox4.PasswordChar = '~';
             uiTextBox4.ShowText = false;
             uiTextBox4.Size = new Size(250, 37);
             uiTextBox4.TabIndex = 1;
-            uiTextBox4.Text = "uiTextBox1";
             uiTextBox4.TextAlignment = ContentAlignment.MiddleLeft;
             uiTextBox4.Watermark = "";
             // 
@@ -142,10 +142,10 @@
             uiTextBox3.MinimumSize = new Size(1, 16);
             uiTextBox3.Name = "uiTextBox3";
             uiTextBox3.Padding = new Padding(5);
+            uiTextBox3.PasswordChar = '=';
             uiTextBox3.ShowText = false;
             uiTextBox3.Size = new Size(250, 37);
             uiTextBox3.TabIndex = 1;
-            uiTextBox3.Text = "uiTextBox1";
             uiTextBox3.TextAlignment = ContentAlignment.MiddleLeft;
             uiTextBox3.Watermark = "";
             // 
@@ -160,7 +160,6 @@
             uiTextBox2.ShowText = false;
             uiTextBox2.Size = new Size(250, 37);
             uiTextBox2.TabIndex = 1;
-            uiTextBox2.Text = "uiTextBox1";
             uiTextBox2.TextAlignment = ContentAlignment.MiddleLeft;
             uiTextBox2.Watermark = "";
             // 
@@ -175,7 +174,6 @@
             uiTextBox1.ShowText = false;
             uiTextBox1.Size = new Size(250, 37);
             uiTextBox1.TabIndex = 1;
-            uiTextBox1.Text = "uiTextBox1";
             uiTextBox1.TextAlignment = ContentAlignment.MiddleLeft;
             uiTextBox1.Watermark = "";
             // 
@@ -218,6 +216,7 @@
             uiButton3.TabIndex = 2;
             uiButton3.Text = "全选/不全选";
             uiButton3.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            uiButton3.Click += uiButton3_Click;
             // 
             // uiCheckBox5
             // 
@@ -306,6 +305,7 @@
             uiButton2.TabIndex = 1;
             uiButton2.Text = "取消";
             uiButton2.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            uiButton2.Click += uiButton2_Click;
             // 
             // uiButton1
             // 
@@ -317,6 +317,7 @@
             uiButton1.TabIndex = 1;
             uiButton1.Text = "确认";
             uiButton1.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            uiButton1.Click += uiButton1_Click;
             // 
             // EditUserFrom
             // 

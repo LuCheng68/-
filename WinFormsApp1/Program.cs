@@ -12,7 +12,7 @@ namespace WinFormsApp1
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             //Application.Run(new EditUserFrom());
-            Application.Run(new UserForm());
+            Application.Run(new Log());
         }
     }
 }

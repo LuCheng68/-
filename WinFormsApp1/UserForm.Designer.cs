@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
             uiGroupBox1 = new Sunny.UI.UIGroupBox();
             uiGroupBox4 = new Sunny.UI.UIGroupBox();
             uiDataGridView1 = new Sunny.UI.UIDataGridView();
@@ -104,54 +104,53 @@
             // 
             uiDataGridView1.AllowUserToAddRows = false;
             uiDataGridView1.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle6.BackColor = Color.FromArgb(243, 249, 255);
-            uiDataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle1.BackColor = Color.FromArgb(243, 249, 255);
+            uiDataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             uiDataGridView1.AutoScrollToBottom = true;
             uiDataGridView1.BackgroundColor = Color.FromArgb(243, 249, 255);
             uiDataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle7.BackColor = Color.FromArgb(80, 160, 255);
-            dataGridViewCellStyle7.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            dataGridViewCellStyle7.ForeColor = Color.White;
-            dataGridViewCellStyle7.SelectionBackColor = Color.FromArgb(80, 160, 255);
-            dataGridViewCellStyle7.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = DataGridViewTriState.True;
-            uiDataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = Color.FromArgb(80, 160, 255);
+            dataGridViewCellStyle2.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            dataGridViewCellStyle2.ForeColor = Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(80, 160, 255);
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            uiDataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             uiDataGridView1.ColumnHeadersHeight = 32;
             uiDataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             uiDataGridView1.Columns.AddRange(new DataGridViewColumn[] { selectCheck, UserName, Account, IoManage, CameraManage, LogManage, UserManage, CountManage, Password, Uid, Aid });
-            dataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = Color.White;
-            dataGridViewCellStyle8.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            dataGridViewCellStyle8.ForeColor = Color.FromArgb(48, 48, 48);
-            dataGridViewCellStyle8.SelectionBackColor = Color.FromArgb(220, 236, 255);
-            dataGridViewCellStyle8.SelectionForeColor = Color.FromArgb(48, 48, 48);
-            dataGridViewCellStyle8.WrapMode = DataGridViewTriState.False;
-            uiDataGridView1.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = Color.White;
+            dataGridViewCellStyle3.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            dataGridViewCellStyle3.ForeColor = Color.FromArgb(48, 48, 48);
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(220, 236, 255);
+            dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(48, 48, 48);
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            uiDataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             uiDataGridView1.Dock = DockStyle.Fill;
             uiDataGridView1.EnableHeadersVisualStyles = false;
             uiDataGridView1.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
             uiDataGridView1.GridColor = Color.FromArgb(104, 173, 255);
             uiDataGridView1.Location = new Point(0, 32);
             uiDataGridView1.Name = "uiDataGridView1";
-            uiDataGridView1.ReadOnly = true;
             uiDataGridView1.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = Color.FromArgb(243, 249, 255);
-            dataGridViewCellStyle9.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            dataGridViewCellStyle9.ForeColor = Color.FromArgb(48, 48, 48);
-            dataGridViewCellStyle9.SelectionBackColor = Color.FromArgb(80, 160, 255);
-            dataGridViewCellStyle9.SelectionForeColor = Color.FromArgb(48, 48, 48);
-            dataGridViewCellStyle9.WrapMode = DataGridViewTriState.True;
-            uiDataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = Color.FromArgb(243, 249, 255);
+            dataGridViewCellStyle4.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            dataGridViewCellStyle4.ForeColor = Color.FromArgb(48, 48, 48);
+            dataGridViewCellStyle4.SelectionBackColor = Color.FromArgb(80, 160, 255);
+            dataGridViewCellStyle4.SelectionForeColor = Color.FromArgb(48, 48, 48);
+            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
+            uiDataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             uiDataGridView1.RowHeadersVisible = false;
             uiDataGridView1.RowHeadersWidth = 62;
-            dataGridViewCellStyle10.BackColor = Color.White;
-            dataGridViewCellStyle10.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
-            dataGridViewCellStyle10.ForeColor = Color.FromArgb(48, 48, 48);
-            dataGridViewCellStyle10.SelectionBackColor = Color.FromArgb(220, 236, 255);
-            dataGridViewCellStyle10.SelectionForeColor = Color.FromArgb(48, 48, 48);
-            uiDataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle5.BackColor = Color.White;
+            dataGridViewCellStyle5.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            dataGridViewCellStyle5.ForeColor = Color.FromArgb(48, 48, 48);
+            dataGridViewCellStyle5.SelectionBackColor = Color.FromArgb(220, 236, 255);
+            dataGridViewCellStyle5.SelectionForeColor = Color.FromArgb(48, 48, 48);
+            uiDataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle5;
             uiDataGridView1.SelectedIndex = -1;
             uiDataGridView1.Size = new Size(909, 553);
             uiDataGridView1.TabIndex = 0;
@@ -162,7 +161,6 @@
             selectCheck.HeaderText = "选择";
             selectCheck.MinimumWidth = 75;
             selectCheck.Name = "selectCheck";
-            selectCheck.ReadOnly = true;
             selectCheck.Width = 93;
             // 
             // UserName
@@ -172,7 +170,6 @@
             UserName.HeaderText = "姓名";
             UserName.MinimumWidth = 50;
             UserName.Name = "UserName";
-            UserName.ReadOnly = true;
             // 
             // Account
             // 
@@ -181,7 +178,6 @@
             Account.HeaderText = "账号";
             Account.MinimumWidth = 120;
             Account.Name = "Account";
-            Account.ReadOnly = true;
             Account.Width = 120;
             // 
             // IoManage
@@ -191,7 +187,6 @@
             IoManage.HeaderText = "IO管理";
             IoManage.MinimumWidth = 120;
             IoManage.Name = "IoManage";
-            IoManage.ReadOnly = true;
             IoManage.Width = 120;
             // 
             // CameraManage
@@ -201,7 +196,6 @@
             CameraManage.HeaderText = "相机管理";
             CameraManage.MinimumWidth = 120;
             CameraManage.Name = "CameraManage";
-            CameraManage.ReadOnly = true;
             CameraManage.Width = 120;
             // 
             // LogManage
@@ -211,7 +205,6 @@
             LogManage.HeaderText = "日志管理";
             LogManage.MinimumWidth = 120;
             LogManage.Name = "LogManage";
-            LogManage.ReadOnly = true;
             LogManage.Width = 120;
             // 
             // UserManage
@@ -221,7 +214,6 @@
             UserManage.HeaderText = "用户管理";
             UserManage.MinimumWidth = 120;
             UserManage.Name = "UserManage";
-            UserManage.ReadOnly = true;
             UserManage.Width = 120;
             // 
             // CountManage
@@ -231,7 +223,6 @@
             CountManage.HeaderText = "产量管理";
             CountManage.MinimumWidth = 120;
             CountManage.Name = "CountManage";
-            CountManage.ReadOnly = true;
             CountManage.Width = 120;
             // 
             // Password
@@ -241,7 +232,6 @@
             Password.HeaderText = "密码";
             Password.MinimumWidth = 120;
             Password.Name = "Password";
-            Password.ReadOnly = true;
             Password.Visible = false;
             Password.Width = 150;
             // 
@@ -252,7 +242,6 @@
             Uid.HeaderText = "用户id";
             Uid.MinimumWidth = 120;
             Uid.Name = "Uid";
-            Uid.ReadOnly = true;
             Uid.Visible = false;
             Uid.Width = 150;
             // 
@@ -263,7 +252,6 @@
             Aid.HeaderText = "权限id";
             Aid.MinimumWidth = 120;
             Aid.Name = "Aid";
-            Aid.ReadOnly = true;
             Aid.Visible = false;
             Aid.Width = 150;
             // 
@@ -394,6 +382,7 @@
             uiButton3.TabIndex = 0;
             uiButton3.Text = "删除用户";
             uiButton3.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            uiButton3.Click += uiButton3_Click;
             // 
             // uiButton2
             // 
@@ -405,6 +394,7 @@
             uiButton2.TabIndex = 0;
             uiButton2.Text = "修改用户";
             uiButton2.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            uiButton2.Click += uiButton2_Click;
             // 
             // uiButton1
             // 
@@ -416,6 +406,7 @@
             uiButton1.TabIndex = 0;
             uiButton1.Text = "添加用户";
             uiButton1.TipsFont = new Font("宋体", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            uiButton1.Click += uiButton1_Click;
             // 
             // uiTextBox1
             // 
