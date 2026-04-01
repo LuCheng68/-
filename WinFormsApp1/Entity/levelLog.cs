@@ -6,7 +6,7 @@ namespace WinFormsApp1.Entity
 {
     public class levelLog
     {
-        public int Id { get; set; } 
+        public int Id { get; set; }
         public string Name { get; set; }
     }
 }
